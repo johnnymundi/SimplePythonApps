@@ -14,6 +14,9 @@ def bin2dec (number):
     import math
     istring = str(number)
 
+    if len(istring) >= 8:
+        return ("Please, only enter a binary number up to 8 digits")
+
     power = len(istring) - 1
     result = 0
     for digit in range(len(istring)):
