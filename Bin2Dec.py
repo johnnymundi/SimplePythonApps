@@ -8,6 +8,27 @@ Conditions:
 a single mathematical function, for example the natural logarithm. It's up to you to figure out which
 function to use.
 
-
-
 '''
+
+def bin2dec (number):
+    import math
+    istring = str(number)
+
+    power = len(istring) - 1
+    result = 0
+    for digit in range(len(istring)):
+        result += math.pow(2 * (int(istring[digit])), power)
+        power -= 1
+
+    return result
+
+number = input("Please, digit an binary number up to 8 digits: ")
+
+print(bin2dec(number))
+
+
+
+
+
+
+
