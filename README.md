@@ -1,1 +1,1 @@
-"# SimplePythonApps" 
+- simple python exercises that I think can be interesting for always coming back :sweat_smile:
